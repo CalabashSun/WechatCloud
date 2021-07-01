@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <div class="demoTable">
+        菜品id或名称：
+        <div class="layui-inline">
+            <input class="layui-input" name="id" id="demoReload" autocomplete="off">
+        </div>
+        <button class="layui-btn" data-type="reload">搜索</button>
+    </div>
+    <table id="demo" lay-filter="demo">
+    </table>
+</div>
+
+<script type="text/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs" lay-event="upload">上传至微信</a>
+</script>
+<script>
+    layui.use('table', function () {
+        var table = layui.table;
+        //第一个实例
+        table.render({
+            elem: '#demo'
+            , height: 612
+            , url: '/home/GetFoodList' //数据接口
+            , parseData: function (res) {
+                return {
+                    "code": 0,
+                    "count": res.TotalNum,
+                    "data": res.Items
+                }
+            }
+            , page: true //开启分页
+            , cols: [[ //表头
+                { field: 'Id', title: 'Id', width: 70, sort: true, fixed: 'left' }
+                , { field: 'DP_ID', title: '菜品id', width: 80 }
+                , { field: 'DP_Name', title: '菜品名称', width: 200, sort: true }
+                , { field: 'Pic_Path', title: '图片路径', width: 200 }
+                , { field: 'File_Path', title: '微信路径', width: 177 }
+                , {
+                    title: '是否上传', width: 120, templet: function (res) {
+                        return res.IsHandle?"是":"否"
+                    }
+                }
+                , { field: 'UploadTime', title: '上传时间', width: 120 }
+                , { fixed: 'right', width: 178, align: 'center', toolbar: '#barDemo' }
+            ]],
+            id: 'testReload'
+        });
+        //监听工具条
+        table.on('tool(demo)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'upload') {
+                $.ajax({
+                    url: "/home/PostToWechat?id=" + data.Id,
+                    success: function (result) {
+                        layer.msg(result);
+                    }
+                })
+            }
+        });
+        var $ = layui.$, active = {
+            reload: function () {
+                var demoReload = $('#demoReload');
+                //执行重载
+                table.reload('testReload', {
+                    page: {
+                        curr: 1 //重新从第 1 页开始
+                    }
+                    , where: {
+                        foodId: demoReload.val(),
+                        foodName: demoReload.val()
+                    }
+                }, 'data');
+            }
+        };
+        $('.demoTable .layui-btn').on('click', function () {
+            var type = $(this).data('type');
+            active[type] ? active[type].call(this) : '';
+        });
+    });
+</script>

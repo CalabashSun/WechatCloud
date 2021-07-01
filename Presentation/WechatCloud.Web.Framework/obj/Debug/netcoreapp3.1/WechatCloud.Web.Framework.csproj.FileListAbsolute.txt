@@ -1,0 +1,16 @@
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Web.Framework.deps.json
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Web.Framework.dll
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Web.Framework.pdb
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Core.dll
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Data.dll
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Services.dll
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Core.pdb
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Services.pdb
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\bin\Debug\netcoreapp3.1\WechatCloud.Data.pdb
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.csprojAssemblyReference.cache
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.AssemblyInfoInputs.cache
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.AssemblyInfo.cs
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.csproj.CoreCompileInputs.cache
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.csproj.CopyComplete
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.dll
+D:\coProject\WechatCloud\Presentation\WechatCloud.Web.Framework\obj\Debug\netcoreapp3.1\WechatCloud.Web.Framework.pdb

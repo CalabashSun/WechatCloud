@@ -1,0 +1,14 @@
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Services.deps.json
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Services.dll
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Services.pdb
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Core.dll
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Data.dll
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Core.pdb
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\bin\Debug\netcoreapp3.1\WechatCloud.Data.pdb
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.csprojAssemblyReference.cache
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.AssemblyInfoInputs.cache
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.AssemblyInfo.cs
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.csproj.CoreCompileInputs.cache
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.csproj.CopyComplete
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.dll
+D:\coProject\WechatCloud\Libraries\WechatCloud.Services\obj\Debug\netcoreapp3.1\WechatCloud.Services.pdb

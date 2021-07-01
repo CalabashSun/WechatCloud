@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimedJob" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\WechatCloud.Core\WechatCloud.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\WechatCloud.Data\WechatCloud.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\WechatCloud.Services\WechatCloud.Services.csproj" />
+    <ProjectReference Include="..\WechatCloud.Web.Framework\WechatCloud.Web.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

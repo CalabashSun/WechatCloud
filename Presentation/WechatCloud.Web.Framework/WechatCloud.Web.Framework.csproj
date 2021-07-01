@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\WechatCloud.Core\WechatCloud.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\WechatCloud.Services\WechatCloud.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimedJob" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
